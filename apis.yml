@@ -1,8 +1,28 @@
 aid: studio-moderna
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/studio-moderna.png
 name: Studio Moderna
-description: Studio Moderna is a company surfaced as a portfolio company of insight-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Studio Moderna is one of the largest multichannel direct-to-consumer
+  retailers across Central and Eastern Europe, the Middle East, and beyond,
+  founded in 1992 and headquartered in Emmen, Switzerland, with major operations
+  based in Ljubljana, Slovenia. The company reaches consumers through TV
+  direct-response (Top Shop), e-commerce, print catalogs, call centers, and
+  physical retail stores in roughly twenty countries. Its portfolio of
+  house brands spans sleep and home (Dormeo), kitchenware (Delimano), footwear
+  and wellness (Walkmaxx), and health and lifestyle products (Kosmodisk, Rovus,
+  WellNeo). It was surfaced as a portfolio company of Insight Partners and added
+  to the API Evangelist network for enrichment; the company exposes no public
+  developer or API surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/studio-moderna/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Retail
+- E-commerce
+- Consumer Goods
+- Direct-to-Consumer
+- Multichannel Retail
+- Central and Eastern Europe
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +48,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/studio-moderna-domain-security.yml
 - type: Website
   url: http://www.studio-moderna.com/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
