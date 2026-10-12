@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/studio-moderna/integrations
+- https://n8n.io/integrations/studio-moderna/
+- https://composio.dev/toolkits/studio-moderna
+- https://monid.ai/tools/studio-moderna
+checked:
+- https://composio.dev/toolkits/studio-moderna
+- https://monid.ai/tools/studio-moderna
+- https://n8n.io/integrations/studio-moderna/
+- https://zapier.com/apps/studio-moderna/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
